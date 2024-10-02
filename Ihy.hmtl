@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WMA Personalizadas</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+        }
+        table {
+            border: 0;
+            width: 90%;
+            max-width: 900px;
+            margin: auto;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+        h1, h2, h3, h4 {
+            text-align: center;
+            margin: 20px 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #333;
+        }
+        .imagem {
+            width: 150px;
+            float: right;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .pesquisa {
+            float: left;
+            margin: 10px;
+        }
+        .pesquisa input[type="text"] {
+            width: 80%;
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .pesquisa button {
+            padding: 5px 10px;
+            border-radius: 5px;
+            border: none;
+            background-color: #555;
+            color: white;
+            cursor: pointer;
+        }
+        .pesquisa button:hover {
+            background-color: #777;
+        }
+        .produtos {
+            padding: 20px;
+            margin: 10px 0; /* Espaçamento em cima e embaixo */
+            background-color: rgba(255, 255, 255, 0.2); /* Fundo semi-transparente */
+            border-radius: 10px; /* Bordas arredondadas */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>WMA Personalizadas</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="quem_somos.html">Quem Somos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <table>
+        <tr>
+            <td>
+                <div class="pesquisa">
+                    <h3>Pesquise sobre nossos produtos:</h3>
+                    <input type="text" placeholder="Buscar...">
+                    <button type="button">Pesquisar</button>
+                </div>
+            </td>
+            <td>
+                <img class="imagem" src="https://i.imgur.com/Wzs2ZNs.jpeg" alt="Imagem de fundo">
+            </td>
+        </tr>
+    </table>
+
+    <h2>Nossos Produtos</h2>
+    <div class="produtos">
+        <h4>Canecas Térmicas</h4>
+        <p>Perfeitas para manter suas bebidas quentes ou frias por mais tempo.</p>
+        <img src="https://images.tcdn.com.br/img/img_prod/1177245/caneca_de_chopp_termica_de_inox_700_ml_ref_4070_95_1_c23f8414b292fa6ed8460baf297c49b3.jpg">
+    </div>
+    <div class="produtos">
+        <h4>Canecas de Cerâmica</h4>
+        <p>Disponíveis em diversas cores e estampas, ideais para o seu dia a dia.</p>
+        <img src="https://dcdn.mitiendanube.com/stores/003/353/762/products/caneca-ceramica-alca-coracao21-b96f9e1c827043a1cc16875587464209-1024-1024.jpg">
+    </div>
+
+    <footer>
+        <p>&copy; 2024 WMA Personalizadas. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
